@@ -1,4 +1,4 @@
-# **Digital Course: Git/Versioning. My annotations -----------------------------------------------------------------------------------**
+# ** DevOps Digital Course: Git/Versioning. My annotations. -----------------------------------------------------------------------------------**
 # **States of a file viewd by git in my words:**
 ## UNTRACKED: A file that belongs to your workspace but It isn't tracked by the git, this implies that
 ## the git don't have the commit history (version control) from this file and It need to be added into staging area (Staged) : "git add 'file'". If you want to ignore a untracked file in your version control, you can use the file ".gitignore". But, remember, you need to add and commit the file ".gitignore" to have it's version control too.
@@ -8,8 +8,15 @@
 
 
 
-# **Essential git comand**
-*comando git push
-*comando git pull
-*comando git fetch
+# **Essential git comands**
+* git branch
+* git checkout
+* git status
+* git log
+* git restore
+* git diff
+* git remote
+* git push
+* git pull
+* git fetch
 ## 

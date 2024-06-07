@@ -1,1 +1,3 @@
-# **Digital Course: Git/Versioning. My annotations -----------------------------------------------------------------------------------**
+# **My annotations from the DevOps Digital Course about:** 
+# **Digital Course: Git/Versioning. -----------------------------------------------------------------------------------**
+#
