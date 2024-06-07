@@ -6,7 +6,9 @@
 ## MODIFIED: The git knows that the file was modified and If you want It in the next commit, you need to use "git add".
 ## STAGED: The file that you used "git add", cames to this state (staging area), It is ready to be reviwed before the commit.
 
-*comando git push
+
 
 # **Essential git comand**
+*comando git push
+*comando git pull
 ## 
