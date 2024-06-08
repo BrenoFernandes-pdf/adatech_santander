@@ -1,3 +1,4 @@
-# **My annotations from the DevOps Digital Course about:** 
-# **Digital Course: Git/Versioning. -----------------------------------------------------------------------------------**
-#
+# **My notes from the DevOps Digital Course about:** 
+# Digital Course Subjects: 
+## Git/GitHub Versioning.
+## Networks and Systems. 
