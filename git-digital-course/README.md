@@ -7,7 +7,9 @@
 
 
 # **Essential git comands, quick summary with my words and learning ------------------------------------------------**
+* git init - inicializes the Git Repository (add .git in the current directory)
 * git config - Configures setting at various levels. The settings include user information, default editor, and other.
+* git clone - Clones the remote repository to your local machine.
 * git branch - Manages branches in a Git repository
 * git checkout - Switches branches
 * git merge - Merge two or more branches
