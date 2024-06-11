@@ -1,4 +1,4 @@
-# **My notes from the DevOps Digital Course about:** 
+# **My notes from the DevOps Santander Coders about:** 
 # Digital Course Subjects: 
-## Git/GitHub Versioning.
-## Networks and Systems. 
+* Git/GitHub Versioning.
+* Networks and Systems. 
