@@ -48,7 +48,7 @@
 This is useful when multiple internal devices share the same public IP address. Each connection is distinguished by its unique port.
 ## IPV4
 * IPv4 addresses are 32 bits long and are usually represented in dotted decimal notation, such as 192.168.1.1.
-* Pode suportar cerca de 4,3 bilhões (2^32) de endereços únicos.
+* It can support about 4.3 billion (2^32) unique addresses.
 * Public Addresses: Used to identify devices on the internet (e.g.: 8.8.8.8).
 * Private Addresses: Used in local networks (e.g.: 192.168.0.0 - 192.168.255.255).
 ## IPV6
@@ -68,3 +68,5 @@ This is useful when multiple internal devices share the same public IP address. 
 ### The last IP address in a subnet is reserved for the broadcast address, used to send packets to all hosts in the subnet.For example, if a subnet has the mask /24, then 192.168.1.255 is the broadcast address.
 ![Classes of IP Addresses](../image/classes_subrede.jpg)
 > Fonte: https://pplware.sapo.pt/tutoriais/networking/classes-de-endereos-ip-sabe-quais-so/
+
+# DOMAIN, DNS, LATENCY
