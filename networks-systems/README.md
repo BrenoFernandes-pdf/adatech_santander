@@ -40,3 +40,31 @@
  * Link -> The data link layer organizes data into units called "frames". Each frame contains a header and trailer in addition to the top layer data. The link layer, therefore, plays a fundamental role in network communication, providing the basis for the secure and efficient transfer of data between devices on the same local network.
         -> Uses MAC (Media Access Control) addresses to identify devices on the local network. Each device has a unique MAC address.
         -> Protocols: Ethernet, Wi-Fi (IEEE 802.11) 
+
+# IPV4 and IPV6
+# NAT
+* NAT (Network Address Translation) is a mechanism used in routers and firewalls to translate IP addresses between different networks. It allows multiple devices on a private network to share a single public IP address to communicate with devices on external networks such as the Internet. Here are the main aspects of NAT:
+* In addition to translating IP addresses, NAT can also translate port numbers.
+This is useful when multiple internal devices share the same public IP address. Each connection is distinguished by its unique port.
+## IPV4
+* IPv4 addresses are 32 bits long and are usually represented in dotted decimal notation, such as 192.168.1.1.
+* Pode suportar cerca de 4,3 bilhões (2^32) de endereços únicos.
+* Public Addresses: Used to identify devices on the internet (e.g.: 8.8.8.8).
+* Private Addresses: Used in local networks (e.g.: 192.168.0.0 - 192.168.255.255).
+## IPV6
+* Hexadecimal notation with colons (colon-hexadecimal), for example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+* IPv6: 3.4 x 10^38 addresses.
+* Unicast addresses: Identify a single device.
+* Anycast Addresses: An address assigned to multiple devices, the router sends to the closest one.
+* Multicast Addresses: An address for a group of devices.
+* Mandatory IPsec.
+
+# Subnet Calculation
+## Subnets (or subnets) are logical networks that arise from the division of a larger IP network into smaller networks. This is done through a process called "subnetting", which involves dividing the IP address space into smaller subnets. Here is an overview of how subnets work and how they are divided:
+### The IPv4 address space is divided into smaller subnets using a subnet mask.
+### The subnet mask identifies which part of the IP address is the network portion and which part is the host portion.
+### For example, in a default subnet mask of /24, the first 24 bits are for the network and the last 8 bits are for the hosts.
+### For a /24 subnet mask, for example, there are 2^8 (or 256) possible IP addresses, of which 2 are reserved for the network address(first) and the broadcast address(last), leaving 254 for hosts.
+### The last IP address in a subnet is reserved for the broadcast address, used to send packets to all hosts in the subnet.For example, if a subnet has the mask /24, then 192.168.1.255 is the broadcast address.
+![Classes of IP Addresses](../image/classes_subrede.jpg)
+> Fonte: https://pplware.sapo.pt/tutoriais/networking/classes-de-endereos-ip-sabe-quais-so/
