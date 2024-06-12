@@ -78,6 +78,7 @@ This is useful when multiple internal devices share the same public IP address. 
 * example - second level domain
 * www - subdomain
 ![DOMAIN](../image/componentes-url-com-subdominio.png)
+> Fonte: https://www.ionos.com/pt-br/digitalguide/dominios/domainverwaltung/o-que-e-um-subdominio/
 # Domain register:
 ## Domains are registered through domain registrars, which are entities authorized to register domain names. The domain owner can configure DNS records to associate the domain with different IP addresses and other services.
 # Types of DNS Servers:
