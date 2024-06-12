@@ -69,4 +69,31 @@ This is useful when multiple internal devices share the same public IP address. 
 ![Classes of IP Addresses](../image/classes_subrede.jpg)
 > Fonte: https://pplware.sapo.pt/tutoriais/networking/classes-de-endereos-ip-sabe-quais-so/
 
-# DOMAIN, DNS, LATENCY
+# DOMAIN, DNS(Domain Name System), LATENCY
+![DNS HIERARCHY](../image/dns_server.webp)
+> Fonte: https://www.cloudflare.com/pt-br/learning/dns/glossary/dns-root-server/
+## Domains and Domain Name System (DNS) servers are fundamental components of the internet infrastructure, facilitating the conversion of human-readable domain names (such as www.example.com) to machine-readable IP addresses (such as 192.168.1.1).
+## Hierarchical structure, consisting of several levels. For example, www.example.com has three parts:
+* com - top-level domain (TLD - Top-Level Domain)
+* example - second level domain
+* www - subdomain
+![DOMAIN](../image/componentes-url-com-subdominio.png)
+# Domain register:
+## Domains are registered through domain registrars, which are entities authorized to register domain names. The domain owner can configure DNS records to associate the domain with different IP addresses and other services.
+# Types of DNS Servers:
+* Root Servers: First step in domain name resolution, redirecting to TLD servers.
+* TLD servers: Responsible for top-level domains such as .com, .org, etc., redirecting to authoritative domain servers.
+* Authoritative Servers: Contain definitive information about a specific domain, including its resource records.
+* Recursive Servers: Perform the complete lookup of the domain name, querying other DNS servers as necessary until the answer is found.
+# Types of DNS Records:
+* A Record (Address Record): Maps a domain name to an IPv4 address.
+* AAAA Record: Maps a domain name to an IPv6 address.
+* CNAME Record (Canonical Name Record):Maps a domain name to another domain name, allowing redirection.
+* MX Record (Mail Exchange Record): Specifies email servers responsible for receiving email for the domain.
+* TXT Record: Stores arbitrary text, often used for domain verification and security policies (such as SPF, DKIM).
+* NS Record (Name Server Record): Indicates which DNS servers are authoritative for the domain.
+
+# CDNs
+## A Content Delivery Network (CDN) is a network of geographically distributed servers that work together to quickly and efficiently deliver internet content to users. The main objective of a CDN is to improve the performance and availability of content for end users.
+### The CDN has servers located in various locations around the world, known as points of presence (PoPs). Each PoP contains multiple cache servers that store copies of the site's static content, such as images, videos, JavaScript and CSS files.
+### When a user requests a website resource (such as an image or video), the CDN redirects the request to the server closest to the user. This cache server delivers the content, reducing latency and speeding up load times.
